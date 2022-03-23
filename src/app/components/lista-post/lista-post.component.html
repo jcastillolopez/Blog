@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="titulo col-12">
+        <H1>BLOGS</H1>
+    </div>
+
+    <div class="posts row">
+        <div *ngFor="let post of arrdatosPost" class="post col-12 col-sm6 col-md-3"
+            (click)="onClick(post.title)">
+            <h3>{{post.title}}</h3>
+            <h5>{{post.category}}</h5>
+            <textarea>{{post.body}}</textarea>
+            <div class="creacion">
+                <p>{{post.author}}</p>
+                <p>{{post.createdAt | date :"shortDate"}}</p>
+            </div>
+        </div>
+    </div>
+</div>

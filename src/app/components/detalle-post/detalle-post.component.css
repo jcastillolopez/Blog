@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+    width: 100%; 
+   
+}
+.titulo{
+  width: 80%;
+  background-color: lightblue;
+ }
+ .post{
+     display: flex;
+     flex-wrap: wrap;   
+     width: 100%; 
+     height: 70vh;   
+     font-size: 150%;
+     background-color: lightgrey;
+     color: blue;
+     padding: 10px;
+     border-radius: 10px;
+     margin: 20px 20px; 
+     text-align: center;  
+ }
+
+ label{
+     color: black;
+     width: 30%; 
+     font-weight: bold; 
+     font-size: 125%;  
+ }
+ textarea{
+     width: 100%;
+     height:50% ; 
+     background-color: lightblue; 
+     margin: 5px;
+     font-size: 80%; 
+ }
+ .colocacion{
+   display: flex;
+   text-align: left;    
+   width: 100%;
+  
+ }
+ h3{
+   
+    color: blue;  
+    border-radius: 10px;
+    width: 60%;
+ }
+ p{
+    color: black;
+    width: 30%; 
+    font-weight: bold; 
+    font-size: 125%; 
+ }
+
+ 

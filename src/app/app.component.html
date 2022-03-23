@@ -1,0 +1,18 @@
+<div class="titulo">
+    <h1>INICIO PROYECTO BLOG</h1>
+</div>
+<ul>
+    <li [routerLink]="['/home']" routerLinkActive="activo">
+        Home
+    </li>
+    <li [routerLink]="['/formulario']" routerLinkActive="activo">
+        Nuevo Blog
+    </li>
+    <li [routerLink]="['/lista-post']" routerLinkActive="activo">
+        Lista-Blog
+    </li>
+
+
+</ul>
+
+<router-outlet></router-outlet>
